@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#catalogo, #carrito {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  max-width: 400px;
+}
+
+.producto {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.producto:last-child {
+  border-bottom: none;
+}
+
+button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #155ab6;
+}
+
+#carrito > div {
+  margin-bottom: 8px;
+}
